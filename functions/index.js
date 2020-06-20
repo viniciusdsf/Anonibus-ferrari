@@ -3,11 +3,11 @@ var admin = require("firebase-admin");
 const path = require('path');
 
 
-let serviceAccount = require("./anonibus-cb1ea-firebase-adminsdk-fpaj2-0b1abeef2a.json");
+let serviceAccount = require("./anonibus-ferrari-firebase-adminsdk-fpaj2-0fr56tfr2a.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://anonibus-cb1ea.firebaseio.com"
+  databaseURL: "https://anonibus-ferrari.firebaseio.com"
 });
 
   let db = admin.firestore();
