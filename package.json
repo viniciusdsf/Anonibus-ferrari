@@ -17,7 +17,7 @@
     "axios": "^0.19.2",
     "expo": "~37.0.3",
     "expo-camera": "~8.2.0",
-    "expo-cli": "^3.21.9",
+    "expo-cli": "^6.0.8",
     "expo-google-sign-in": "~8.1.0",
     "expo-image-picker": "~8.1.0",
     "expo-location": "~8.1.0",
